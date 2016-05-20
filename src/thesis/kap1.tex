@@ -1,0 +1,52 @@
+\chapter{Problematika indoor map}
+Orientační plány budov jsou pomůckou známou již několik staletí. Pomáhají lidem v orientaci v neznámém prostředí, typicky bývají schématické a zdůrazňují základní vybavení veřejné budovy – schodiště, chodby, vstupy či toalety. Nezřídka též obsahují označení místa, kde se člověk na plánu zrovna nachází – předzvěst modré geolokační ikonky v dnešních smartphonech.
+
+\begin{lstlisting}[language=javascript]
+\end{lstlisting}
+
+
+
+
+\cite{rozvodidnes}
+
+Indoor mapy jsou doménou několika málo posledních let. V roce 2012 přišel na scénu Google, o dva roky později Apple, načež mnohé servery komentovaly, že indoor bude \uv{příští velká věc} \footnote{V originále: \uv{the next big thing}}.
+
+Indoor mapy a geolokace je velká technologická výzva pro současný věk, v této kapitole si shrneme, jak k ní přistupují vybrané služby. 
+
+ \begin{figure}
+	  \centering
+      \includegraphics[width=\textwidth]{obrazky1/FEL-Dejvice_copy.jpg}
+      \caption{Nový profil Dívky1}
+      \label{divka1-profil}
+  \end{figure}
+
+  \begin{figure}
+\subfloat[Caption for subfigure 1\label{fig:test1}]
+  {\includegraphics[width=.3\linewidth]{obrazky1/FEL-Dejvice_copy.jpg}}\hfill
+\subfloat[Caption for subfigure 2\label{fig:test2}]
+  {\includegraphics[width=.3\linewidth]{obrazky1/FEL-Dejvice_copy.jpg}}\hfill
+\subfloat
+  {\includegraphics[width=.3\linewidth]{obrazky1/FEL-Dejvice_copy.jpg}}
+\caption{A figure with three subfigures}
+\end{figure}
+
+\section{1.1 Současné indoor služby}
+Současným indoor službám samozřejmě dominují velcí hráči na poli webových map. V posledních letech, též díky nástupu autonomních vozidel, proběhlo několik zajímavých akvizic. Pojďme si tedy shrnout – \uv{kdo je kdo}:
+\begin{itemize}
+\item TomTom – v roce 2008 akvizice firmy Teleatlas, nyní poskytuje data pro Apple Maps a Uber. Od roku 2014 navázal partnerství pro indoor mapy s firmou Micello. 
+\item Micello – vznikla v roce 2007 v Sillicon Valley a nyní má zmapováno největší množství indoor prostor. Data nabízí zejména do aplikací třetích stran.
+\item Google – do roku 2008 používal data TeleAtlasu, později využívá vlastní koupené či půjčené datasety. Indoor mapy nyní implementuje do svých Google Maps na všech platformách.
+\item Here – v roce 2011 vzniklo jako Nokia Ovi Maps akvizicí firmy NAVTEQ. V prosinci 2015 koupeno německými automobilkami od firmy Nokia už pod názvem Nokia Here Maps. Firma NAVTEQ uveřejnila své indoor řešení na konferenci Nokia World 2010, ovšem Here Maps již tato data na webu nezobrazují. 
+\item Microsoft – služba Bing Maps oznámila indoor mapy v roce 2011 pod názvem Venue Maps. Mapová data nadále vlastní, ale divize tvorby byla odprodána firmě Uber (poté, co tato prohrála boj o Here Maps).
+Zcela vyčerpávající přehled lze najít v tabulce The Indoor Navigation Market od společnosti BuildingLayer.
+\end{itemize}
+
+\subsection*{Google Maps Indoor}
+\texttt{Google se stal konkurencí webových map akvizicí několika startupů v roce 2004 – zejména firmy Keyhole, která dala za vznik legendární aplikaci Google Earth. Díky uvolnění API, mobilním aplikacím (včetně spolupráce s prvními telefony iPhone v letech 2007-2012) a Street-View se začal Google stávat jedním z hlavních hráčů na trhu. Celý poutavý příběh – viz zdroj.}
+
+
+\textbf{Obrázek: Zobrazení klasické mapy; přepnutí do indoor zobrazení; přiblížení (3x Google Maps)}
+
+Indoor mapám se začal věnovat od roku 2011, kdy spustil prohlížeč v rámci své aplikace pro Android. Pro zadání mapových podkladů nabízí Google svou stránku, kde podporuje instituce, aby samy nahrály obrázky podlažních plánů a zarovnaly je vůči satelitní mapě. Samotné digitalizování pak dělá Google sám. Informační stránka – viz zdroj. V ČR zatím nejsou žádné plány, ale instituce je i tak mohou Googlu poslat.
+
+Aktivace indoor zobrazení je nastavena jednak při dostatečném přiblížení mapy a též při kliku na Business Listing, který je umístěn ve zmapované budově. V indoor zobrazení se též ukáže přepínač pater budovy. 

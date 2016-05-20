@@ -1,0 +1,78 @@
+@ARTICLE {a7,title  = "Google Maps enters the indoor GPS market",journal = "Archinect news {[online]}",month  = "červen",year   = "2013",note = "[cit. 2015-10-31]",url    = "http://pandatron.cz/?2939&sitova_karta_s_fpga_xilinx_pro_1_a_10gbe"}
+
+
+
+
+@ARTICLE {a7, title  = {Google Maps enters the indoor GPS market},journal = {Archinect news}, month  = {červen},year   = {2013},note = {[cit. 2015-10-31]},url    = {http://pandatron.cz/?2939&sitova_karta_s_fpga_xilinx_pro_1_a_10gbe}}
+
+
+
+
+
+
+
+
+
+@ARTICLE {a7aa,
+title  = "Google Maps enters the indoor GPS market",
+journal = "Archinect news {[online]}",
+month  = "červen",
+year   = "2013",
+note = "[cit. 2015-10-31]",
+url    = "http://pandatron.cz/?2939&sitova_karta_s_fpga_xilinx_pro_1_a_10gbe"
+}
+
+
+
+@MANUAL{a1,
+    title = "Scalable Vector Graphics (SVG) 1.1 Specification {[online]}",
+    organization = "WWW Consorcium",
+    url = "http://www.w3.org/TR/2003/REC-SVG11-20030114/",
+    note = "[cit. 2011-07-07]",
+    key = "svg"
+}
+
+@article{a2,
+  author = {Petra {\v{S}}kra{\v n}kov{\' a}},
+  title = {Petr Nečas je rozveden, k soudu nedorazil on ani exmanželka},
+  year = {2013},
+  journal = {iDNES.cz},
+  url = {http://zpravy.idnes.cz/rozvod-petra-necase-04w-/domaci.aspx?c=A130805_074422_eko-doprava_skr},
+  note = {[online] [cit. 2015-01-22]},
+}
+
+@misc{a3,
+  author = {{\v{C}}esk{\' a}{\ }televize},
+  title = {Otázky Václava Moravce [televizní pořad]},
+  year = {2010},
+  url = {http://www.ceskatelevize.cz/porady/1126672097-otazky-vaclava-moravce/210411030500822/video/},
+  note = {Vysíláno: 22.\,8.\,2010 [cit. 2015-03-28]},
+}
+
+@INBOOK{a4,
+	title = "Praktick{\' a} typografie",
+	author = "Pavel Ko{\v c}i{\v c}ka and Filip Bla{\v z}ek",
+	publisher = "Brno: Computer Press",
+	year = "2004"
+}
+
+@BOOK{a5,
+	title = "LaTeX pro za\v c\'ate\v cn\'\i{}ky",
+	author = "Ji{\v r}{\' i} Rybi{\v c}ka",
+	isbn = "80-7302-049-1",
+	publisher = "Brno: Konvoj",
+	edition = "3"
+}
+
+@MANUAL{a6,
+	organization = "\'U\v rad pro technickou normalizaci, metrologii a st\'atn\'\i{} zku\v sebnictv\'\i{}",
+	title = "\v CSN ISO 690 Informace a dokumentace -- Pravidla pro bibliografick\'e odkazy a citace informa\v cn\'\i{}ch zdroj{\r u}",
+	year = "2011"
+}
+
+
+
+
+
+
+

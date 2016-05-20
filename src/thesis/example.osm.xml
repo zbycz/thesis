@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+    <node id='370559023' timestamp='2009-04-07T13:01:48Z' uid='17615' user='Petr Dlouhý' visible='true' version='1' changeset='292915' lat='50.0995577' lon='14.3048705' />
+    <node id='370559037' timestamp='2015-12-30T09:18:41Z' uid='1558400' user='Klaudian' visible='true' version='3' changeset='36257737' lat='50.0992923' lon='14.3049849'>
+        <tag k='historic' v='memorial' />
+        <tag k='inscription' v='Zde zemřel sokolský písmák Karel Vaníček 24. června r. 1926' />
+        <tag k='memorial' v='stone' />
+        <tag k='name' v='Vaníčkův pomníček' />
+    </node>
+    <node id='370617054' timestamp='2016-02-19T17:40:56Z' uid='498648' user='tkk' visible='true' version='3' changeset='37313466' lat='50.0995937' lon='14.3048577'>
+        <tag k='hiking' v='yes' />
+        <tag k='information' v='guidepost' />
+        <tag k='name' v='Vaníčkův pomníček' />
+        <tag k='operator' v='cz:KČT' />
+        <tag k='ref' v='6014/7' />
+        <tag k='tourism' v='information' />
+    </node>
+    <way id='32902919' timestamp='2016-03-19T21:12:17Z' uid='2793429' user='QuoX_CZ' visible='true' version='5' changeset='37945823'>
+        <nd ref='370559023' />
+        <nd ref='370559037' />
+        <tag k='highway' v='path' />
+    </way>
+    <relation id='6065569' timestamp='2016-05-06T09:30:06Z' uid='162287' user='zby-cz' visible='true' version='3' changeset='39139040'>
+        <member type='node' ref='370617054' role='guidepost' />
+        <member type='way' ref='32902919' role='' />
+        <tag k='complete' v='yes' />
+        <tag k='description' v='Odbočka k Vaníčkovu pomníčku' />
+        <tag k='distance' v='0.05' />
+        <tag k='kct_yellow' v='interesting_object' />
+        <tag k='network' v='lwn' />
+        <tag k='operator' v='cz:KČT' />
+        <tag k='osmc:symbol' v='yellow:white:yellow_turned_T' />
+        <tag k='ref' v='6014i' />
+        <tag k='route' v='hiking' />
+        <tag k='type' v='route' />
+    </relation>
+</osm>

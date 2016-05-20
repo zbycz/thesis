@@ -1,0 +1,151 @@
+
+
+
+
+% options:
+% thesis=B bachelor's thesis
+% thesis=M master's thesis
+% czech thesis in Czech language
+% slovak thesis in Slovak language
+% english thesis in English language
+% hidelinks remove colour boxes around hyperlinks
+
+\documentclass[thesis=M,czech]{FITthesis}[2012/06/26]
+
+\usepackage[utf8]{inputenc} % LaTeX source encoded as UTF-8
+
+\usepackage{graphicx} %graphics files inclusion
+\usepackage{subfig}
+
+\usepackage{pdfpages} % v šabloně, jinak \usepackage
+
+
+\usepackage{url}
+\usepackage{breakurl}
+% \usepackage{amsmath} %advanced maths
+% \usepackage{amssymb} %additional math symbols
+
+\usepackage{dirtree} %directory tree visualisation
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\lstdefinelanguage{JavaScript}{
+  keywords={break, case, catch, continue, debugger, default, delete, do, else, false, finally, for, function, if, in, instanceof, new, null, return, switch, this, throw, true, try, typeof, var, void, while, with},
+  morecomment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  morestring=[b]',
+  morestring=[b]",
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  sensitive=true
+}
+
+\lstset{
+   language=JavaScript,
+   backgroundcolor=\color{white},
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   numbers=none,
+   numberstyle=\footnotesize,
+   numbersep=9pt,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false,
+   captionpos=b,
+}
+
+\usepackage{todo}
+% % list of acronyms
+% \usepackage[acronym,nonumberlist,toc,numberedsection=autolabel]{glossaries}
+% \iflanguage{czech}{\renewcommand*{\acronymname}{Seznam pou{\v z}it{\' y}ch zkratek}}{}
+% \makeglossaries
+
+\newcommand{\tg}{\mathop{\mathrm{tg}}} %cesky tangens
+\newcommand{\cotg}{\mathop{\mathrm{cotg}}} %cesky cotangens
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% ODTUD DAL VSE ZMENTE
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+
+\input{part1-hlavicka.tex}
+
+\begin{document}
+
+
+\input{dip-out.tex}
+
+
+%\cite{a1} \cite{a2} \cite{a3} \cite{a4}\cite{a5} \cite{a6} \cite{a7} \cite{a8} 
+
+
+
+
+
+\bibliographystyle{csn690}
+\bibliography{mybibliographyfile}
+
+
+\appendix
+
+\chapter{Seznam použitých zkratek}
+% \printglossaries
+\begin{description}
+	\item[GUI] Graphical user interface
+	\item[XML] Extensible markup language
+	
+	\item[OSM] OpenStreetMap
+	\item[WGS84] World Geodetic System 1984 – souřadnicový systém na referenčním elipsoidu
+	\item[GPS] Global Positioning System
+	\item[API] Application Programming Interface
+	\item[MIT] Massachusetts Institute of Technology
+	\item[REST] Representational State Transfer
+	\item[IMU] Inertial measurement unit
+	\item[CSS] Cascading Style Sheets
+	\item[SVG] Scalable Vector Graphics
+	\item[CC-BY-SA] Creative Commons by Share Alike
+	\item[UX] User Experience
+	\item[QR] Quick Response
+	\item[CMS] Content Management System
+	\item[XML] Extensible Markup Language
+	\item[GML] Geography Markup Language
+	\item[A-GPS] Asisted GPS
+	\item[GSM] Global System for Mobile Communications
+	\item[BTS] Base Transceiver Station
+	\item[IPS] Indoor Position System
+	\item[BT LE 4.0] Bluetooth Low Energy 4.0
+\end{description}
+
+
+\chapter{Pull request editoru iD}
+
+\includepdf[pages={1,2,3,4}]{pull2.pdf}
+%\includepdf[pages={1}]{zadani.pdf}
+
+
+
+\chapter{Obsah přiloženého CD}
+
+%upravte podle skutecnosti
+
+\begin{figure}
+	\dirtree{%
+		.1 readme.txt\DTcomment{stručný popis obsahu CD}.
+		.1 src.
+		.2 id\DTcomment{git repozitář s editorem iD včetně zbuildované verze}.
+		.2 dejvice.osm\DTcomment{záznam otagovaných budov v Dejvicích}.
+		.2 thesis\DTcomment{zdrojová forma práce ve formátu \LaTeX{}}.
+		.1 thesis.pdf\DTcomment{text práce ve formátu PDF}.
+	}
+\end{figure}
+
+\end{document}
