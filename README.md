@@ -4,8 +4,8 @@
 
 
 - pull request: https://github.com/openstreetmap/iD/pull/3097
-- PDF version: rawgit  / thesis.pdf  (in printed thesis)
-- Google Docs -> updated version: goo.gl/
+- PDF version: https://rawgit.com/zbycz/thesis/master/thesis.pdf  (in printed thesis)
+- Google Docs -> updated version: http://goo.gl/SVZyJv
 
 
 
