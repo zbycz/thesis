@@ -4,6 +4,9 @@
   - Czech: https://goo.gl/SVZyJv
   - English: https://goo.gl/vaOLWJ
 
+- **OSM Proposal**
+	- http://wiki.osm.org/Proposed_features/CoreIndoor
+
 - **iD editor**
   - pull request: https://github.com/openstreetmap/iD/pull/3097
   - live build: https://openstreetmap.cz/edit
