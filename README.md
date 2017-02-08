@@ -1,17 +1,19 @@
 # Indoor mapping on the OpenStreetMap platform
 
 - **Updated text** - in Google docs, feel free to comment: (Summer 2016)
-  - Czech: https://goo.gl/SVZyJv
-  - English: https://goo.gl/vaOLWJ
+  - [Czech full version](https://goo.gl/SVZyJv)
+  - [English translation](https://goo.gl/vaOLWJ)
 
 - **OSM Proposal**
-	- http://wiki.osm.org/Proposed_features/CoreIndoor
+  - http://wiki.osm.org/Proposed_features/CoreIndoor
+  - notice in [tagging maillist](https://lists.openstreetmap.org/pipermail/tagging/2017-February/031123.html)
 
-- **iD editor**
-  - pull request: https://github.com/openstreetmap/iD/pull/3097
-  - live build: https://openstreetmap.cz/edit
-
-- **Printed thesis in PDF:** [thesis.pdf](thesis.pdf) (April 2016)
+- **customized iD editor**
+  - pull request: [github.com/openstreetmap/iD/pull/3097](https://github.com/openstreetmap/iD/pull/3097)
+  - live build: [openstreetmap.cz/edit](https://openstreetmap.cz/edit)
+  - tagging example: [shopping center Smichov](https://openstreetmap.cz/edit/#id=w382843342&map=18.06/14.40284/50.07310)
+  
+- **Original printed text in PDF:** [thesis.pdf](thesis.pdf) (April 2016)
 
 
 
@@ -26,5 +28,3 @@ Práce se zabývá problematikou vnitřních plánů budov, nabízí informace o
 
 ## Citation
 Pavel Zbytovský: Plány budov na platformě OpenStreetMap. Diplomová práce. Praha: ČVUT FIT, 2016. Dostupný také z http://zby.cz/thesis.
-
-
